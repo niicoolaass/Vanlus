@@ -31,7 +31,7 @@ function App () {
         <>
         
             <Routes>
-                <Route path='/Vanlus' element={<Home />}/>
+                <Route path='/Vanlus/' element={<Home />}/>
                 
                 <Route path='/Login' element={<Login />}/>
 
