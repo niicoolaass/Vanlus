@@ -1,4 +1,4 @@
-import { Routes,Route, HashRouter, Navigate} from 'react-router-dom';
+import { Routes,Route} from 'react-router-dom';
 import Home from './Paginas/Home/Home.js';
 import Login from './Paginas/Login/Login.js';
 import DadosCondutor1 from './Paginas/CadastroCondutor/components/Cadastro1/DadosCondutor1.js';
@@ -30,9 +30,8 @@ function App () {
     return(
         <>
         
-            <HashRouter>
-                <Route path="/" element={<Navigate to="/Home" />} />
-                <Route path='' element={<Home />}/>
+            <Routes>
+                <Route path='/' element={<Home />}/>
                 
                 <Route path='/Login' element={<Login />}/>
 
@@ -63,7 +62,7 @@ function App () {
                 <Route path='*' element={<Erro/>}/>
     
                 <Route path='/pagamentos/cartao' element={<Cartão/>}/>
-            </HashRouter>
+            </Routes>
 
         </>
     )
