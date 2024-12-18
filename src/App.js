@@ -1,4 +1,4 @@
-import { Routes,Route, HashRouter} from 'react-router-dom';
+import { Routes,Route, HashRouter, Navigate} from 'react-router-dom';
 import Home from './Paginas/Home/Home.js';
 import Login from './Paginas/Login/Login.js';
 import DadosCondutor1 from './Paginas/CadastroCondutor/components/Cadastro1/DadosCondutor1.js';
