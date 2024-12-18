@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vanlus/static/css/main.0112d583.css",
-    "main.js": "/Vanlus/static/js/main.ca3c3772.js",
+    "main.js": "/Vanlus/static/js/main.ac4625af.js",
     "static/media/boysoccer.png": "/Vanlus/static/media/boysoccer.e6194a494dd835e97d43.png",
     "static/media/crianca.png": "/Vanlus/static/media/crianca.742692f41fa767526610.png",
     "static/media/mapa.png": "/Vanlus/static/media/mapa.1c2c6914fa260e872a38.png",
@@ -51,10 +51,10 @@
     "static/media/boy.jpg": "/Vanlus/static/media/boy.5438a9fb462e1fd834f8.jpg",
     "index.html": "/Vanlus/index.html",
     "main.0112d583.css.map": "/Vanlus/static/css/main.0112d583.css.map",
-    "main.ca3c3772.js.map": "/Vanlus/static/js/main.ca3c3772.js.map"
+    "main.ac4625af.js.map": "/Vanlus/static/js/main.ac4625af.js.map"
   },
   "entrypoints": [
     "static/css/main.0112d583.css",
-    "static/js/main.ca3c3772.js"
+    "static/js/main.ac4625af.js"
   ]
 }
