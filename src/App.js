@@ -31,7 +31,7 @@ function App () {
         <>
         
             <HashRouter>
-                <Route path='/inicio' element={<Home />}/>
+                <Route path='' element={<Home />}/>
                 
                 <Route path='/Login' element={<Login />}/>
 
